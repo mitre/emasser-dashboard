@@ -1,0 +1,24 @@
+
+module.exports = {
+  root: true,
+  // "vue/no-lone-template": ["error", {
+  //   "ignoreAccessible": false
+  // }],
+  env: {
+    browser: true,
+    node: true
+  },
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
+  },
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended',
+    'prettier'
+  ],
+  plugins: [
+  ],
+  // add your custom rules here
+  rules: {}
+}
